@@ -1,4 +1,4 @@
-module github.com/fluxcd/pkg/ssa
+module github.com/eugenepaniot/pkg/ssa
 
 go 1.18
 
