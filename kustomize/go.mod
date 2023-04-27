@@ -1,4 +1,4 @@
-module github.com/fluxcd/pkg/kustomize
+module github.com/eugenepaniot/pkg/kustomize
 
 go 1.18
 
@@ -23,10 +23,10 @@ require (
 	sigs.k8s.io/yaml v1.3.0
 )
 
-// Pin kustomize to v4.5.7
+// Pin kustomize to v5.0.1
 replace (
-	sigs.k8s.io/kustomize/api => sigs.k8s.io/kustomize/api v0.12.1
-	sigs.k8s.io/kustomize/kyaml => sigs.k8s.io/kustomize/kyaml v0.13.9
+	sigs.k8s.io/kustomize/api => sigs.k8s.io/kustomize/api v0.13.2
+	sigs.k8s.io/kustomize/kyaml => sigs.k8s.io/kustomize/kyaml v0.14.1
 )
 
 // Fix CVE-2022-28948
